@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <!-- FONT IMPORT -->
+  <link
+    href="https://db.onlinewebfonts.com/c/954a8553a18364335506edba42fe6a0b?family=Betm-Medium"
+    rel="stylesheet">
+
+  <!-- MAIN STYLES -->
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/carousel.css">
+  <link rel="stylesheet" href="../css/destinations.css">
+  <link rel="stylesheet" href="../css/body.css">
+  <link rel="stylesheet" href="../css/infos.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  
+  <!-- RESPONSIVE -->
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/responsive2.css">
+  <link rel="stylesheet" href="../css/responsive3.css">
+</head>
+<body>
+    <header class="header">
+      <div class="header__social-media-contacts">
+        <nav class="header__social-media-nav">
+          <img src="../assets/20.png" alt="Facebook logo">
+          <img src="../assets/19.png" alt="X logo">
+        </nav>
+      </div>
+      <div class="header__nav-block">
+        <div class="header__nav-container">
+          <nav class="header__nav-bar">
+            <img src="../assets/18.jpg.png" alt="logo">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <p class="header__nav-link">Home</p>
+              </li>
+
+              <li class="header__nav-item header__nav-item--arrow-icon">
+                <p class="header__nav-link header__nav-link-arrow">Book</p>
+                <img class="header__arrow-icon-img" src="https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png" alt="arrow icon">
+                <img class="header__arrow-icon-img-resp" src="https://cdn-icons-png.flaticon.com/512/60/60995.png" alt="arrow icon">
+                <ul class="header__sub-menu">
+                  <li class="header__sub-menu-item"><p>France</p></li>
+                  <li class="header__sub-menu-item"><p>Brazil</p></li>
+                  <li class="header__sub-menu-item"><p>Algeria</p></li>
+                </ul>
+              </li>
+
+              <li class="header__nav-item header__nav-item--arrow-icon">
+                <p class="header__nav-link header__nav-link-arrow">Destinations</p>
+                <img class="header__arrow-icon-img" src="https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png" alt="arrow icon">
+                <img class="header__arrow-icon-img-resp" src="https://cdn-icons-png.flaticon.com/512/60/60995.png" alt="arrow icon">
+                  
+                <div class="header__wrapper">
+                  <ul class="header__sub-menu">
+                    <li class="header__sub-menu-item"><p>France</p></li>
+                    <li class="header__sub-menu-item"><p>Brazil</p></li>
+                    <li class="header__sub-menu-item"><p>Algeria</p></li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="header__nav-item">
+                <p class="header__nav-link">Prices</p>
+              </li>
+              <li class="header__nav-item">
+                <p class="header__nav-link">Alerts</p>
+              </li>
+              <li class="header__nav-item">
+                <p class="header__nav-link">Contact</p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+  <main>
+    <div class="carousel">
+      <div class="carousel__container">
+        <input type="radio" name="carousel" id="radio1" checked>
+        <input type="radio" name="carousel" id="radio2">
+        <input type="radio" name="carousel" id="radio3">
+        <input type="radio" name="carousel" id="radio4">
+        <input type="radio" name="carousel" id="radio5">
+        <input type="radio" name="carousel" id="radio6">
+
+        <div class="carousel__slides">
+          <img src="../assets/6.jpg" alt="woman at the airport">
+          <img src="../assets/7.jpg" alt="woman enjoying summer image">
+          <img src="../assets/8.jpg" alt="warrior image">
+          <img src="../assets/9.jpg" alt="photographer">
+          <img src="../assets/10.jpg" alt="africans image">
+          <img src="../assets/11.jpg" alt="surfer image">
+
+          <div class="carousel__paragraph-container">
+            <div class="carousel__paragraph">
+              <p>Tips to travel around the world !</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel__arrows">
+          <div class="carousel__arrow-container">
+            <label for="radio6" class="carousel__arrow carousel__arrow--left" id="prev1">&lt;</label>
+            <label for="radio2" class="carousel__arrow carousel__arrow--right" id="next1">&gt;</label>
+
+            <label for="radio1" class="carousel__arrow carousel__arrow--left" id="prev2">&lt;</label>
+            <label for="radio3" class="carousel__arrow carousel__arrow--right" id="next2">&gt;</label>
+
+            <label for="radio2" class="carousel__arrow carousel__arrow--left" id="prev3">&lt;</label>
+            <label for="radio4" class="carousel__arrow carousel__arrow--right" id="next3">&gt;</label>
+
+            <label for="radio3" class="carousel__arrow carousel__arrow--left" id="prev4">&lt;</label>
+            <label for="radio5" class="carousel__arrow carousel__arrow--right" id="next4">&gt;</label>
+
+            <label for="radio4" class="carousel__arrow carousel__arrow--left" id="prev5">&lt;</label>
+            <label for="radio6" class="carousel__arrow carousel__arrow--right" id="next5">&gt;</label>
+
+            <label for="radio5" class="carousel__arrow carousel__arrow--left" id="prev6">&lt;</label>
+            <label for="radio1" class="carousel__arrow carousel__arrow--right" id="next6">&gt;</label>
+          </div>
+        </div>
+
+        <div class="carousel__radio-buttons">
+          <label for="radio1" class="carousel__radio-dot"></label>
+          <label for="radio2" class="carousel__radio-dot"></label>
+          <label for="radio3" class="carousel__radio-dot"></label>
+          <label for="radio4" class="carousel__radio-dot"></label>
+          <label for="radio5" class="carousel__radio-dot"></label>
+          <label for="radio6" class="carousel__radio-dot"></label>
+        </div>
+      </div>
+    </div>
+
+    <!-- warnings -->
+    <div class="warnings">
+      <div class="warnings__container">
+        <div class="warnings__item">
+          <img class="warnings__image" src="../assets/13.png" alt="fire">
+          <p class="warnings__text">Safe, structured and amazing application</p>
+        </div>
+        <div class="warnings__item">
+          <img class="warnings__image" src="../assets/17.png" alt="A">
+          <p class="warnings__text">The sun is shining today, book your trip</p>
+        </div>
+        <div class="warnings__item">
+          <img class="warnings__image" src="../assets/12.png" alt="paw">
+          <p class="warnings__text">Meet new people and live more intensely</p>
+        </div>
+        <p class="warnings__paragraph">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius
+          quis, sapiente beatae consequuntur consequatur nulla mollitia maxime
+          possimus, quaerat natus. Adipisci ad natus porro aliquam necessitatibus
+          nulla, voluptatibus eaque.
+          <br><a href="#" class="warnings__link">more info</a>
+        </p>
+        <p class="warnings__paragraph">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius
+          quis, sapiente beatae consequuntur consequatur nulla mollitia maxime
+          possimus, quaerat natus. Adipisci ad natus porro aliquam necessitatibus
+          nulla, voluptatibus eaque.
+          <br><a href="#" class="warnings__link">more info</a>
+        </p>
+        <p class="warnings__paragraph">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni eius
+          quis, sapiente beatae consequuntur consequatur nulla mollitia maxime
+          possimus, quaerat natus. Adipisci ad natus porro aliquam necessitatibus
+          nulla, voluptatibus eaque.
+          <br><a href="#" class="warnings__link">more info</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="destinations__title-container">
+      <div class="destinations__title">
+        <h3>Destinations</h3>
+      </div>
+    </div>
+
+    <div class="destinations__container">
+      <div class="destinations__countries">
+        <div class="destinations__country">
+          <img src="../assets/3.jpg" alt="France">
+          <h4>France</h4>
+        </div>
+        <div class="destinations__country">
+          <img src="../assets/4.jpg" alt="Brazil">
+          <h4>Brazil</h4>
+        </div>
+        <div class="destinations__country">
+          <img src="../assets/5.jpg" alt="Algeria">
+          <h4>Algeria</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- DETAILS TRAVEL -->
+    <div class="details-travel">
+      <div class="details-travel__us-block">
+        <div class="details-travel__about-us">
+          <h4>About Us</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+            deserunt commodi modi, assumenda dolorem mollitia, ut similique
+            corporis error optio fugiat perspiciatis doloremque a aliquam neque!
+            Exercitationem facilis eum laboriosam saepe quo non tempore eius,
+            porro sit quam commodi assumenda.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+            doloribus id. Corporis, incidunt. Cum quod, sed aliquid rerum optio
+            facilis officia magni recusandae, nihil ipsum labore qui consequatur
+            quisquam aspernatur eaque perspiciatis sapiente corrupti incidunt quae
+            iure. Similique voluptatum sit impedit accusantium doloribus, beatae
+            suscipit id odit enim, velit, esse a quas et in facere. Enim, sequi
+            repellat! A, aperiam.
+          </p>
+        </div>
+        <div class="details-travel__why-us">
+          <h4>Why Us</h4>
+          <div>
+            <div class="details-travel__section-content">
+              <img src="../assets/14.png" alt="compass">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                est nemo quaerat quam omnis at ipsa facilis eveniet delectus porro!
+              </p>
+            </div>
+            <div class="details-travel__section-content">
+              <img src="../assets/15.png" alt="map">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                est nemo quaerat quam omnis at ipsa facilis eveniet delectus porro!
+              </p>
+            </div>
+            <div class="details-travel__section-content">
+              <img src="../assets/16.png" alt="bike">
+              <p id="bike-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+                est nemo quaerat quam omnis at ipsa facilis eveniet delectus porro!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOW TO TRAVEL -->
+    <div class="how-to">
+      <div class="how-to__container">
+        <div class="how-to__heading">
+          <h4>How to travel ?</h4>
+        </div>
+        <div class="how-to__description">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+            natus id tempore quidem neque laborum! Odio cumque esse culpa maiores.
+          </p>
+        </div>
+        <div class="how-to__action">
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer__container">
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__list-item">Home</li>
+          <li class="footer__list-item">Book</li>
+          <li class="footer__list-item">Destinations</li>
+          <li class="footer__list-item">Prices</li>
+          <li class="footer__list-item">Alerts</li>
+          <li class="footer__list-item">Contact</li>
+        </ul>
+      </nav>
+      <div class="footer__copyright">
+        <p class="footer__text">&copy; There is no birds here Look around.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

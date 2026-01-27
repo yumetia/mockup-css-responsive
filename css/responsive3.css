@@ -1,0 +1,139 @@
+@media screen and (max-width:305px){
+    .header__social-media-contacts{
+        margin-left: 0;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .header__social-media-nav {
+        display: initial;
+    }
+    .header__social-media-nav img {
+        margin-right: 5px;
+        width: 20px;
+    }
+    .header__nav-container{
+        max-width: 95%;
+
+    }
+    .header__nav-link:hover,.header__nav-link:active{
+        color: red;
+        cursor: pointer;
+    }
+    .header__nav-bar{
+        margin: auto;
+    }
+    .header__nav-list{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5%;
+    }
+    .header__nav-item {
+        width: 127%;
+    }
+    .header__nav-bar img:first-child{
+        width: 100%;
+    }
+    .header__sub-menu-item{
+        width: 480%;
+    }
+    .header__nav-link{
+        font-size: smaller;
+        margin-left: 5%;
+    }
+    .header__nav-link-arrow {
+        font-size: smaller;
+        margin-left: 5%;
+    }
+    /*  */
+    /*  */
+    .carousel {
+        width: 98%;
+    }
+    .carousel__arrow{
+        font-size: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    /*  */
+    /*  */
+    .warnings__container{
+        margin-top: 5%;
+        margin-bottom: 35%;
+        max-width: 98%;
+    }
+    .warnings__item:nth-of-type(1),
+    .warnings__item:nth-of-type(2),
+    .warnings__item:nth-of-type(3){
+        width: 94.5%;
+        margin-top: 5%;
+    }
+    .warnings__paragraph:nth-of-type(1),
+    .warnings__paragraph:nth-of-type(2),
+    .warnings__paragraph:nth-of-type(3){
+        width: 100%;
+        font-size: smaller;
+    }
+    
+    /*  */
+    /*  */
+    .destinations__title {
+       max-width: 98%;
+    }
+    .destinations__title h3{
+       font-size: large;
+    }
+    .destinations__country:nth-of-type(1) {
+        width: 30%;
+    }
+    /*  */
+    /*  */
+    .details-travel{
+        padding-bottom: 0;
+    }
+    .details-travel__us-block {
+        max-width: 99%;
+        margin-top: 5%;
+    }
+    .details-travel__about-us {
+        width: 100%;
+        line-height: 1.8;
+    }
+    .details-travel__section-content{
+        display: block;
+        margin-bottom: 0;
+    }
+    #bike-p::before{
+        content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo ea dolorem nisi atque in, neque temporibus? Itaque nostrum obcaecati tenetur quos ex numquam fuga eum, quaerat temporibus adipisci deleniti? Quos provident illo harum molestiae temporibus est voluptate sint soluta deserunt?";
+    }
+    #bike-p::before{
+        visibility: visible;
+    }
+    #bike-p{
+        visibility: hidden;
+        margin-bottom: 0;
+    }
+    .details-travel__section-content p{
+        max-width: 64%;
+    }
+    .details-travel__section-content img {
+        float: left;
+        width: 100px;
+        height: 90px;
+    }
+
+    .how-to__container {
+        margin: 1%;
+        margin-bottom: 20%;
+    }
+    /*  */
+    /*  */
+    footer{
+        box-sizing: border-box;
+        /* padding-bottom: 65px; */
+    }
+    .footer__list{
+        /* padding-top: 75px; */
+    }
+}

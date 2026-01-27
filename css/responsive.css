@@ -1,0 +1,112 @@
+/* starting to the second size (tablet ?) */
+@media screen and (max-width:847px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    .header__social-media-nav {
+        max-width: 90%;
+        margin: auto;
+    }
+    .header__social-media-contacts{
+        max-width: 100%;
+    }
+    .header__nav-container {
+        max-width: 100%;
+    }
+    .header__nav-bar{
+        max-width: 100%;
+        display: block;
+    }
+    .header__sub-menu{
+        top: 70%;
+    }
+    .header__sub-menu-item p{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 5%;
+        width: fit-content;
+    }
+      
+    /*  */
+    /*  */
+    
+    .warnings__container {
+        max-width: 90%;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 0;
+        
+    }
+    .warnings__item {
+        width: 90%;
+        height: fit-content;
+        margin: 0;
+    }
+    .warnings__image {
+        margin: auto;
+    }
+    .warnings__paragraph{
+        width: 90%;
+        font-size: x-small;
+        line-height: 2;
+        margin-top: 0;
+    }
+    .warnings__text {
+        color: whitesmoke;
+        font-size: smaller;
+        width: 50%;
+        line-height: 1.8;
+        margin: auto;
+      }
+    /*  */
+    /*  */
+    .destinations__title {
+        max-width: 90%;
+    }
+    .destinations__countries {
+        max-width: 90%;
+        margin: auto;
+    }
+    .destinations__country{
+        width: 27.6%;
+    }
+    .destinations__country img{
+        width: 90%;
+        height: 130px;
+    }
+    /*  */
+    /*  */
+    .details-travel__us-block{
+        max-width: 90%;
+    }
+    
+    .how-to__container{
+        max-width: 90%;
+    }
+
+    /*  */
+    /*  */
+    footer{
+        padding-bottom: 40px;
+    }
+    .footer__list {
+        font-size: small;
+    }
+    .footer__text {
+        font-size: x-small;
+        margin: 0;
+    }
+    .footer__nav{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .footer__copyright{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
